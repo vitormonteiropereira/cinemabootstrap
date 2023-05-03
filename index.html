@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cinema</h1>
+                <nav>
+                <ul>
+                        <li>
+                            <a href="#compra">Ingressos</a>
+                        </li>
+                    </ul>
+        </nav>
+    </div>
+    </header>
+    <div id="carro" class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="/filmes/foto1.jpg" />
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class=" d-block w-100" src="/filmes/foto3.jpg">
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="/filmes/foto4.jpg" />
+                    <div class="carousel-caption">
+                        
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <div id = "cartao" class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="card text-bg-dark">
+                    <img src="https://media.istockphoto.com/id/1271522601/pt/foto/pop-corn-and-on-red-armchair-cinema.jpg?s=612x612&w=0&k=20&c=Lqjie6S78lCcz36QQWV-rzz-1SK4mvBG8-5cRag27-s=" />
+                    <div class="card-img-overlay">
+                        <h1 class="card-title contorno">Novidades nas telas</h1>
+                        <h4 class="card-text contorno">
+                            Confira as estreias desta semana nos cinemas.
+                        </h4>
+                        <a href="#" class="btn btn-primary">Conferir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="card text-bg-dark">
+                    <img src="https://cultura.uol.com.br/upload/tvcultura/noticias/20201017080002_6minutos_shutterstock-204105922-1440x1080.jpg" />
+                    <div class="card-img-overlay">
+                        <h1 class="card-title contorno">Promoções</h1>
+                        <h4 class="card-text contorno">
+                            Confira promoções de ingresso e direito à meia-entrada.
+                        </h4>
+                        <a href="#" class="btn btn-primary">Conferir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 id="compra" class="container prod">Compra de ingressos</h2>
+    <section class="produtos">
+        <div class="produto">
+            <h3>Sala 1</h3>
+        <img src="https://cdnim.prd.cineticket.com.br/asset/movie/8030/o-ultimo-chamado-de-maria-poster-desktop-5055c.jpeg" alt="Tênis">
+        <p>QUI | SEX | TER: 22h <br> SÁB |DOM | SEG: 20h</p>
+        
+        <button>Comprar ingresso</button>
+        </div>
+        <div class="produto">
+            <h3>Sala 2</h3>
+        <img src="https://cdnim.prd.cineticket.com.br/asset/movie/7942/guardioes-da-galaxia-vol-3-poster-desktop-4965c.jpg" alt="Tênis">
+        <p>QUI | SEX | TER: 22h <br> SÁB |DOM | SEG: 20h</p>
+        <button>Comprar ingresso</button>
+        </div>
+        <div class="produto">
+            <h3>Sala 3</h3>
+        <img src="https://cdnim.prd.cineticket.com.br/asset/movie/8033/dancando-no-silencio-poster-desktop-5064c.jpg" alt="Tênis">
+        <p>QUI | SEX | TER: 22h <br> SÁB |DOM | SEG: 20h</p>
+        <button>Comprar ingresso</button>
+        </div>
+        <div class="produto">
+            <h3>Sala 4</h3>
+        <img src="https://cdnim.prd.cineticket.com.br/asset/movie/7956/deixados-para-tras-o-inicio-do-fim-poster-desktop-5017c.jpg" alt="Tênis">
+        <p>QUI | SEX | TER: 22h <br> SÁB |DOM | SEG: 20h</p>
+        <button>Comprar ingresso</button>
+        </div>
+        <div class="produto">
+            <h3>Sala 5</h3>
+        <img src="https://cdnim.prd.cineticket.com.br/asset/movie/7997/o-chamado-4-samara-ressurge-poster-desktop-5009c.png" alt="Tênis">
+        <p>QUI | SEX | TER: 22h <br> SÁB |DOM | SEG: 20h</p>
+        <button>Comprar ingresso</button>
+        </div>
+        <div class="produto">
+            <h3>Sala 6</h3>
+        <img src="https://cdnim.prd.cineticket.com.br/asset/movie/8000/os-cavaleiros-do-zodiaco-saint-seiya-o-comeco-poster-desktop-5013c.jpg" alt="Tênis">
+        <p>QUI | SEX | TER: 22h <br> SÁB |DOM | SEG: 20h</p>
+        <button>Comprar ingresso</button>
+        </div>
+    </section>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
